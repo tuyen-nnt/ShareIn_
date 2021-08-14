@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:color="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title> ShareIn - Trang chia sẻ lương thực trực tuyến </title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <!-- * *                               SB Forms JS                               * *-->
+    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+
+    <!-- you need to include the shieldui css and js assets in order for the charts to work -->
+    <link rel="stylesheet" type="text/css" href="http://www.shieldui.com/shared/components/latest/css/light/all.min.css" />
+    <script type="text/javascript" src="http://www.shieldui.com/shared/components/latest/js/shieldui-all.min.js"></script>
+
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+
+<body id="page-top">
+<!-- Navigation-->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container px-4 px-lg-5">
+        <a class="navbar-brand" href="#page-top">ShareIn</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html"> Về trang chủ </a></li>
+                <li class="nav-item"><a class="nav-link" href=""share.html"">Chia sẻ lương thực </a></li>
+                <li class="nav-item"><a class="nav-link" href="shop.html">Tìm lương thực </a></li>
+                <li class="nav-item"><a class="nav-link" href="#donate"> Tài trợ </a></li>
+                <li class="nav-item"><a class="nav-link" href="profile.html"> Tài khoản của tôi </a></li>
+                <li class="nav-item"><a class="nav-link">Đăng xuất</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<header class="masthead">
+    <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
+        <div class="d-flex justify-content-center">
+            <div class="text-center">
+                <h1 class="mx-auto my-0"> Đăng bài chia sẻ </h1>
+                <br>
+
+                <div class="container">
+                    <div class="row" id="row_style">
+                        <div class="col-md-4 col-md-offset-4"></div>
+                        <div class="col-md-4 col-md-offset-4">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Tên thực phẩm (có thể bao gồm nhiều món)">
+                            </div>
+                            <br>
+                            <textarea id="editor" cols="30" rows="10">Mô tả sản phẩm (nguồn gốc, hạn sử dụng,...)</textarea>
+                            <br>
+
+                            <div class="file-upload">
+                                <div class="file-select">
+                                    <div class="file-select-button" id="fileName">Choose File</div>
+                                    <div class="file-select-name" id="noFile">No file chosen...</div>
+                                    <input type="file" name="chooseFile" id="chooseFile">
+                                </div>
+                            </div>
+                            <br>
+
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Tags">
+                            </div>
+                            <br>
+                            <div class="form-group">
+                                <button class="btn btn-primary" id="submit">Đăng bài </button>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-md-offset-4"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Footer-->
+<footer id ="footer-share" class="bg-black small text-center text-white-50"><div class="container">Copyright &copy; SHAREIN 2021</div></footer>
+
+</body>
+</html>
