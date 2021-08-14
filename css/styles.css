@@ -11721,3 +11721,12 @@ body {
 #submit {
   display: block;
   margin: auto;
+}
+
+/****** CART PAGE ******/
+.cart{
+  background: grey;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
