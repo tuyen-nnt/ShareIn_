@@ -7,6 +7,12 @@
     <meta name="author" content="" />
     <title> ShareIn - Cần hỗ trợ </title>
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.min.js"></script>
@@ -86,7 +92,30 @@
                             </div>
                             <br>
                             <div class="form-group">
-                                <button class="btn btn-primary" id="submit">Đăng bài </button>
+                                <button class="btn btn-primary" data-toggle="modal" data-target="#myModal">Đăng bài </button>
+                                <!-- The Modal for noti-->
+                                <div class="modal" id="myModal">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+
+                                            <!-- Modal Header -->
+                                            <div class="modal-header">
+                                                <h4 class="modal-title">Thông báo </h4>
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            </div>
+
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                Đăng bài thành công! Xem các bài đăng hỗ trợ <a href="shop.html#help"> tại đây.</a>
+                                            </div>
+
+                                            <!-- Modal footer -->
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-danger" data-dismiss="modal">Đóng</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-4 col-md-offset-4"></div>
